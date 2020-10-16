@@ -1,4 +1,4 @@
-package ItacaDAM.MavenTestDAO;
+package ItacaDAM.MavenTestDAO.model;
 
 public class User {
 
@@ -21,6 +21,9 @@ public class User {
 	public String getName() {
 		return name;
 	}
-
-	// constructors / standard setters / getters
+	
+	public String toString() {
+		return "The user is: " + this.name + ", " + email + " :";
+	}
+	
 }

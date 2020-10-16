@@ -1,9 +1,12 @@
-package ItacaDAM.MavenTestDAO;
+package ItacaDAM.MavenTestDAO.utils;
 
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.List;
 import com.google.gson.Gson;
+
+import ItacaDAM.MavenTestDAO.model.User;
+
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.FileWriter;

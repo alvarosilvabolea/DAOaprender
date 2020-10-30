@@ -1,4 +1,4 @@
-package ItacaDAM.MavenTestDAO;
+package ItacaDAM.MavenTestDAO.dao;
 
 import java.util.List;
 import java.util.Optional;

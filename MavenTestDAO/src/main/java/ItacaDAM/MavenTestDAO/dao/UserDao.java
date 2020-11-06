@@ -5,7 +5,6 @@ import java.util.List;
 import java.util.Objects;
 import java.util.Optional;
 
-import ItacaDAM.MavenTestDAO.Dao;
 import ItacaDAM.MavenTestDAO.model.User;
 
 public class UserDao implements Dao<User>{

@@ -1,0 +1,13 @@
+[{
+"id": 12,
+"ingredientes": 
+{
+	"anchoas": true,
+	"pepperoni": true,
+	"extra-mozzarella": true,
+	"jamon":true,
+	"alcaparras": false,
+	"maiz": false
+},
+"precio": 15.05
+}]

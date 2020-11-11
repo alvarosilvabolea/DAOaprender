@@ -1,4 +1,4 @@
-package ItacaDAM.MavenTestDAO.model.model.builder;
+package ItacaDAM.MavenTestDAO.model.builder;
 
 import ItacaDAM.MavenTestDAO.dao.OrderDao;
 import ItacaDAM.MavenTestDAO.exceptions.DuplicatedItemException;

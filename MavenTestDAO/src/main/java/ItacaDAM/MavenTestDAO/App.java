@@ -7,7 +7,7 @@ import ItacaDAM.MavenTestDAO.dao.UserDao;
 import ItacaDAM.MavenTestDAO.exceptions.DuplicatedItemException;
 import ItacaDAM.MavenTestDAO.model.Order;
 import ItacaDAM.MavenTestDAO.model.User;
-import ItacaDAM.MavenTestDAO.model.model.builder.OrderBuilder;
+import ItacaDAM.MavenTestDAO.model.builder.OrderBuilder;
 
 
 	public class App

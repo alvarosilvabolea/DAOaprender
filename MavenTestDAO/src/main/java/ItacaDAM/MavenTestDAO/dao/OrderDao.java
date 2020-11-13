@@ -21,13 +21,14 @@ public class OrderDao implements Dao<Order> {
 	
 	@Override
 	public Optional<Order> get(long id) {
+		Order searchOrder = null;
 		
 		for(Order o: orders) {
 			if (o.getId() == id ) {
-				return Optional.of(o);
+				searchOrder = o;
 			}
 		}		
-		return Optional.ofNullable(null);
+		return Optional.ofNullable(searchOrder);
 	}
 
 	@Override

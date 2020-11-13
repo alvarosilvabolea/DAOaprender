@@ -27,7 +27,7 @@ public class OrderBuilder {
 		}
 		
 		//Test if there is another order with the same id
-		if ( orderDao.get(id).isEmpty()) {
+		if ( orderDao.get(id).isPresent()) {
 			throw new DuplicatedItemException();
 		}
 		

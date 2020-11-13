@@ -5,6 +5,7 @@ import java.util.List;
 import ItacaDAM.MavenTestDAO.dao.OrderGsonDao;
 import ItacaDAM.MavenTestDAO.dao.UserDao;
 import ItacaDAM.MavenTestDAO.exceptions.DuplicatedItemException;
+import ItacaDAM.MavenTestDAO.exceptions.NotTasteAtAllException;
 import ItacaDAM.MavenTestDAO.model.Order;
 import ItacaDAM.MavenTestDAO.model.User;
 import ItacaDAM.MavenTestDAO.model.builder.OrderBuilder;
@@ -17,7 +18,7 @@ import ItacaDAM.MavenTestDAO.model.builder.OrderBuilder;
 	    	
 	    	try {
 				Order myOrder = OrderBuilder.build(1, false, false, false, false, false, false);
-			} catch (DuplicatedItemException e) {
+			} catch (DuplicatedItemException | NotTasteAtAllException e) {
 					System.out.println("Esta duplicado");
 			}
 	    	

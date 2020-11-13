@@ -27,7 +27,7 @@ public class OrderDao implements Dao<Order> {
 				return Optional.of(o);
 			}
 		}		
-		return null;
+		return Optional.ofNullable(null);
 	}
 
 	@Override

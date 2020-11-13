@@ -16,7 +16,7 @@ public class Order {
 	private Double precio;
 	
 	public Order(Integer id, Ingredients ingredients) {
-		
+		this.id = id;
 	}
 
 	public Integer getId() {
